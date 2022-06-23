@@ -15,6 +15,7 @@ a{
 .container{
     padding:32px;
     width:100%;
+    overflow:hidden;
 }
 
 button:hover{
@@ -671,6 +672,7 @@ TESTIMONIALS
     width:20px;
     height:20px;
     margin-right:4px;
+    color:#fabf2a;
 }
 
 .star:last-child{
@@ -746,7 +748,7 @@ TESTIMONIALS
     margin-right: 12px;
     padding: 16px;
     border-radius: 9999px;
-    background-color: #EDF2F7;
+    background-color: #d6e3f7;
     border:none;
     display: flex;
     justify-content: center;
@@ -756,8 +758,9 @@ TESTIMONIALS
 .left__arrow--img, .right__arrow--img{
     height:16px;
     width:16px;
-    stroke-width: 3;
 }
+
+
 
 .test__people{
     display: flex;
@@ -875,9 +878,123 @@ TESTIMONIALS
     max-width: 1024px;
 }
 
+.footer__wrapper{
+    background-color: #6415FF;
+    width:100%;
+    height:100%;
+}
+
+.footer__contents{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    max-width:1280px;
+    width:100%;
+    margin:0 auto;
+}
 
 
+.footer__sep{
+    margin: 64px 0;
+    width:100%;
+    border-bottom: 2px solid #8556e46c;
+}
 
+.footer__top{
+    display: flex;
+}
 
+li{
+    list-style:none;
+}
 
+.footer__links{
+    color:white;
+    border-bottom-width:2px;
+    border-color:transparent;
+    padding-bottom:4px;
+    transition-duration:300ms;
+}
 
+.footer__top{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    flex-wrap: wrap;
+    /* margin-top:-48px; */
+}
+
+.footer__section{
+    width:auto;
+    padding:0;
+    margin-top:48px;
+}
+
+.footer__section--title{
+    font-size:inherit;
+    margin:0;
+    text-transform: uppercase;
+    font-weight:700;
+}
+
+.footer__list{
+    margin:0;
+    margin-top: 24px;
+    font-size:14px;
+    font-weight:500;
+    padding:0;
+}
+
+.footer__list--items{
+    margin-top:12px;
+    display: list-item;
+}
+
+.footer__bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo{
+    display: flex;
+    align-items: center;
+}
+
+.footer__img{
+    width:32px;
+    display:block;
+}
+
+.footer__text{
+    margin-left:8px;
+    font-size:20px;
+    font-weight:900;
+    letter-spacing: 0.05em;
+}
+
+.footer__icon{
+    width:16px;
+    height:16px;
+    display:block;
+}
+
+.footer__icons{
+    display: flex;
+}
+
+.footer__icons--links{
+    padding:0;
+    margin:0;
+    height:100%;
+    width:100%;
+    padding:8px;
+    border-radius:9999px;
+    background-color:white;
+    margin-right:16px;
+}
+
+.footer__container{
+    background-color:#6415FF;
+    padding-top:64px;
+    padding-bottom:64px;
+}

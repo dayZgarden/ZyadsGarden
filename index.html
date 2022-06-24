@@ -32,6 +32,35 @@
                             <a href="" class="nav__link--right nav__link--sep">Login</a>
                             <a href="" class="nav__link--right purple__box">Sign up</a>
                         </div>
+
+                        <button class="burger" onclick="openMenu()">
+                                <i class="fas fa-bars burger__img"></i>
+                        </button>
+                        <div class="burger__menu">
+                            <button class="burger burger__close" onclick="closeMenu()">
+                                    <i class="close__img fas fa-times"></i> 
+                            </button>
+                            <ul class="burger__links">
+                                <li class="burger__item">
+                                    <a href="" class="burger__link" onclick="closeMenu()">About</a>
+                                </li>
+                                <li class="burger__item">
+                                    <a href="" class="burger__link" onclick="closeMenu()">Blog</a>
+                                </li>
+                                <li class="burger__item">
+                                    <a href="" class="burger__link" onclick="closeMenu()">Pricing</a>
+                                </li>
+                                <li class="burger__item">
+                                    <a href="" class="burger__link" onclick="closeMenu()">Contact Us</a>
+                                </li>
+                                <li class="burger__item login">
+                                    <a href="" class="burger__link" onclick="closeMenu()">Login</a>
+                                </li>
+                                <li class="burger__item">
+                                    <a href="" class="purple__box burger__link" onclick="closeMenu()">Sign Up</a>
+                                </li>
+                            </ul>
+                        </div>
                     </nav>
                     <div class="row">
                         <div class="about__columns">
@@ -44,7 +73,7 @@
                                     with a variety of pages and components.
                                 </p>
                                 <div class="left__column--inputs">
-                                    <input class="about__email" type="email" placeholder="Your E-mail Address">
+                                    <input class="about__email" type="email" placeholder="Your E-mail Address" >
                                     <button class="about__button purple__box">Get Started</button>
                                 </div>
                                 <div class="left__column--trusted">
@@ -67,7 +96,7 @@
         </head>
 
 <body>
-    <section class="features">
+    <section id="features">
         <div class="row">
             <div class="features__description">
                 <h2 class="features__title">Features</h2>
@@ -178,7 +207,7 @@
         </div>
     </section>
 
-    <section" id="steps">
+    <section id="steps">
         <div class="row">
             <div class="steps__setup">
                 <img src="https://treact.owaiskhan.me/static/media/hero-screenshot-2.241aac1f.png" alt=""
